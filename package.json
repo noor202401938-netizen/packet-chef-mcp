@@ -1,6 +1,6 @@
 {
   "name": "@noorfatima123456/packet-chef-mcp",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Zero-native-dependency pure-JavaScript PCAP/PCAPng forensics MCP server for AI agents: packet inspection, conversation tracking, DNS, HTTP, TLS JA3/JA4, WebSocket, QUIC/HTTP3, and threat detection.",
   "main": "server.js",
   "bin": {
