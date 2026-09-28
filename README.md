@@ -5,7 +5,7 @@
 
 [![Azure Live Deployment](https://img.shields.io/badge/Azure_Cloud-Live_Dashboard_%26_SSE-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://packet-chef-e9d4aqbcf3ggf2hx.eastasia-01.azurewebsites.net/)
 [![NPM Version](https://img.shields.io/npm/v/@noorfatima123456/packet-chef-mcp.svg?style=for-the-badge&color=CB3837&logo=npm)](https://www.npmjs.com/package/@noorfatima123456/packet-chef-mcp)
-[![Smithery](https://img.shields.io/badge/Smithery-Certified-0A0E1A?style=for-the-badge&logo=shield)](https://smithery.ai/server/@noor202401938-netizen/packet-chef-mcp)
+[![Smithery](https://smithery.ai/badge/@noor-202401938/packet-chef-mcp)](https://smithery.ai/servers/noor-202401938/packet-chef-mcp)
 [![Glama](https://img.shields.io/badge/Glama-Verified_MCP-3366FF?style=for-the-badge)](https://glama.ai/mcp/servers/noor202401938-netizen/packet-chef-mcp)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](LICENSE)
@@ -115,7 +115,7 @@ claude mcp add packet-chef -- npx -y @noorfatima123456/packet-chef-mcp@latest
 
 #### Via Smithery (1-Click Install)
 ```bash
-npx -y @smithery/cli install @noor202401938-netizen/packet-chef-mcp --client claude
+npx -y @smithery/cli install @noor-202401938/packet-chef-mcp --client claude
 ```
 
 ---

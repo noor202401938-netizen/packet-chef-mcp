@@ -1022,7 +1022,7 @@ export function renderLandingPage(host, port) {
         <span>Glama</span>
       </a>
 
-      <a href="https://smithery.ai/server/@noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" class="btn-smithery">
+      <a href="https://smithery.ai/servers/noor-202401938/packet-chef-mcp" target="_blank" rel="noopener" class="btn-smithery">
         <span>Smithery</span>
       </a>
 
@@ -1430,7 +1430,7 @@ export function renderLandingPage(host, port) {
   <footer class="page-footer" style="display:flex;flex-direction:column;gap:0.85rem;align-items:center;">
     <div style="display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;justify-content:center;font-size:0.8125rem;">
       <a href="https://glama.ai/mcp/servers/noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" style="color:#93B4FF;font-weight:600;">Glama Listing ↗</a>
-      <a href="https://smithery.ai/server/@noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" style="color:var(--peach-primary);font-weight:600;">Smithery Registry ↗</a>
+      <a href="https://smithery.ai/servers/noor-202401938/packet-chef-mcp" target="_blank" rel="noopener" style="color:var(--peach-primary);font-weight:600;">Smithery Registry ↗</a>
       <a href="https://www.npmjs.com/package/@noorfatima123456/packet-chef-mcp" target="_blank" rel="noopener" style="color:#F43F5E;font-weight:600;">NPM Package ↗</a>
       <a href="https://github.com/noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" style="color:#FFFFFF;font-weight:600;">GitHub Repository ↗</a>
       <a href="/llms.txt" style="color:var(--text-body);font-weight:500;">llms.txt</a>
