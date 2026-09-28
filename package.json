@@ -34,7 +34,7 @@
     "type": "git",
     "url": "git+https://github.com/noor202401938-netizen/packet-chef-mcp.git"
   },
-  "homepage": "https://github.com/noor202401938-netizen/packet-chef-mcp#readme",
+  "homepage": "https://packet-chef-e9d4aqbcf3ggf2hx.eastasia-01.azurewebsites.net/",
   "bugs": {
     "url": "https://github.com/noor202401938-netizen/packet-chef-mcp/issues"
   },
@@ -43,17 +43,32 @@
   },
   "keywords": [
     "mcp",
+    "mcp-server",
     "packet-chef",
+    "packet-chef-mcp",
     "pcap",
+    "pcapng",
     "packet-analysis",
+    "network-forensics",
     "modelcontextprotocol",
     "cybersecurity",
     "agentic-ai",
+    "claude",
+    "cursor",
+    "windsurf",
     "strix",
     "forensics",
     "c2-detection",
     "dns-tunneling",
-    "network"
+    "ja3",
+    "ja4",
+    "quic",
+    "websocket",
+    "threat-hunting",
+    "incident-response",
+    "siem",
+    "zeek",
+    "azure-app-service"
   ],
   "author": "Noor Fatima",
   "license": "Apache-2.0",

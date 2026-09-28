@@ -53,7 +53,7 @@ export function renderLandingPage(host, port) {
         "alternateName": ["packet-chef-mcp", "PacketChef"],
         "applicationCategory": "SecurityApplication",
         "operatingSystem": "Cross-platform (Node.js >= 18.0.0)",
-        "softwareVersion": "2.0.0",
+        "softwareVersion": "2.0.1",
         "license": "https://opensource.org/licenses/Apache-2.0",
         "description": "Zero-native-dependency pure-JavaScript PCAP/PCAPng network forensics engine for AI agents (Claude Code, Cursor, Windsurf, Codex, Strix). Performs deterministic Layer 2 through Layer 7 protocol dissection, TCP stream reassembly, TLS JA3/JA4 fingerprinting, C2 beacon hunting, and DNS tunneling detection.",
         "offers": {
@@ -65,7 +65,7 @@ export function renderLandingPage(host, port) {
           "@type": "Person",
           "name": "Noor Fatima"
         },
-        "codeRepository": "https://github.com/noorfatima123456/packet-chef-mcp",
+        "codeRepository": "https://github.com/noor202401938-netizen/packet-chef-mcp",
         "featureList": [
           "L2-L7 Protocol Dissection (Ethernet, IPv4, IPv6, TCP, UDP, DNS, HTTP, TLS, WebSocket, QUIC)",
           "Pure JavaScript Buffer Arithmetic with Zero Native Dependencies",
@@ -233,6 +233,45 @@ export function renderLandingPage(host, port) {
     }
 
     .btn-github:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: var(--border-strong);
+    }
+
+    .btn-glama {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: rgba(51, 102, 255, 0.12);
+      border: 1px solid rgba(51, 102, 255, 0.35);
+      border-radius: 9999px;
+      padding: 0.45rem 0.95rem;
+      font-size: 0.8125rem;
+      color: #93B4FF;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .btn-glama:hover {
+      background: rgba(51, 102, 255, 0.22);
+      border-color: rgba(51, 102, 255, 0.55);
+      color: #FFFFFF;
+    }
+
+    .btn-smithery {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-subtle);
+      border-radius: 9999px;
+      padding: 0.45rem 0.95rem;
+      font-size: 0.8125rem;
+      color: var(--text-headline);
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+
+    .btn-smithery:hover {
       background: rgba(255, 255, 255, 0.08);
       border-color: var(--border-strong);
     }
@@ -975,7 +1014,19 @@ export function renderLandingPage(host, port) {
     </nav>
 
     <div class="nav-actions">
-      <a href="https://github.com/noorfatima123456/packet-chef-mcp" target="_blank" rel="noopener" class="btn-github">
+      <a href="https://glama.ai/mcp/servers/noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" class="btn-glama">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M12 7v5l3 3"/>
+        </svg>
+        <span>Glama</span>
+      </a>
+
+      <a href="https://smithery.ai/server/@noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" class="btn-smithery">
+        <span>Smithery</span>
+      </a>
+
+      <a href="https://github.com/noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" class="btn-github">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
         </svg>
@@ -1019,6 +1070,10 @@ export function renderLandingPage(host, port) {
             <line x1="7" y1="17" x2="17" y2="7"/>
             <polyline points="7 7 17 7 17 17"/>
           </svg>
+        </a>
+
+        <a href="https://glama.ai/mcp/servers/noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" class="btn-ghost-pill" style="border-color:rgba(51,102,255,0.4);color:#93B4FF;">
+          <span>Glama Listing ↗</span>
         </a>
 
         <a href="#operations" class="btn-ghost-pill">
@@ -1372,9 +1427,16 @@ export function renderLandingPage(host, port) {
   </div>
 
   <!-- Page Footer -->
-  <footer class="page-footer">
+  <footer class="page-footer" style="display:flex;flex-direction:column;gap:0.85rem;align-items:center;">
+    <div style="display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;justify-content:center;font-size:0.8125rem;">
+      <a href="https://glama.ai/mcp/servers/noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" style="color:#93B4FF;font-weight:600;">Glama Listing ↗</a>
+      <a href="https://smithery.ai/server/@noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" style="color:var(--peach-primary);font-weight:600;">Smithery Registry ↗</a>
+      <a href="https://www.npmjs.com/package/@noorfatima123456/packet-chef-mcp" target="_blank" rel="noopener" style="color:#F43F5E;font-weight:600;">NPM Package ↗</a>
+      <a href="https://github.com/noor202401938-netizen/packet-chef-mcp" target="_blank" rel="noopener" style="color:#FFFFFF;font-weight:600;">GitHub Repository ↗</a>
+      <a href="/llms.txt" style="color:var(--text-body);font-weight:500;">llms.txt</a>
+    </div>
     <div>
-      <strong>PacketChef MCP</strong> &middot; Pure-JavaScript Network Forensics Engine for AI Agents &middot; Apache-2.0
+      <strong>PacketChef MCP v2.0.1</strong> &middot; Pure-JavaScript Network Forensics Engine for AI Agents &middot; Apache-2.0
     </div>
   </footer>
 

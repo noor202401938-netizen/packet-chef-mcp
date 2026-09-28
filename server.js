@@ -47,7 +47,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export const SERVER_NAME = "packet-chef-mcp";
-export const SERVER_VERSION = "2.0.0";
+export const SERVER_VERSION = "2.0.1";
 const MAX_BASE64_BYTES = 10 * 1024 * 1024;   // 10MB
 const MAX_FILE_BYTES = 500 * 1024 * 1024;    // 500MB
 

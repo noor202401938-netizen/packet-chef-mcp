@@ -1647,7 +1647,7 @@ test("Generate standardized Zeek TSV logs (conn.log, dns.log, http.log)", () => 
 console.log("\n🧰 24. v2 MCP Tool Suite Count Verification (15 Tools)");
 
 test("SERVER_CARD lists all 15 v2 tools", () => {
-  assert.strictEqual(SERVER_CARD.serverInfo.version, "2.0.0");
+  assert.strictEqual(SERVER_CARD.serverInfo.version, "2.0.1");
   assert.strictEqual(SERVER_CARD.tools.length, 15);
   const toolNames = SERVER_CARD.tools.map(t => t.name);
   assert.ok(toolNames.includes("packet_ja3_fingerprints"));
