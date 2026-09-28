@@ -3,7 +3,9 @@
 > **Zero-dependency, pure-JavaScript PCAP & PCAPng network forensics engine for AI agents.**  
 > Built for Claude Code, Cursor, Strix, and Windsurf, with dual-transport support (Local `stdio` & Cloud `HTTP/SSE`).
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](package.json)
+[![NPM](https://img.shields.io/npm/v/@noorfatima123456/packet-chef-mcp.svg)](https://www.npmjs.com/package/@noorfatima123456/packet-chef-mcp)
+[![Smithery](https://smithery.ai/badge/@noor202401938-netizen/packet-chef-mcp)](https://smithery.ai/server/@noor202401938-netizen/packet-chef-mcp)
+[![Glama](https://glama.ai/mcp/servers/noor202401938-netizen/packet-chef-mcp/badge)](https://glama.ai/mcp/servers/noor202401938-netizen/packet-chef-mcp)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](package.json)
 [![MCP](https://img.shields.io/badge/MCP-v1.30.1-orange.svg)](https://modelcontextprotocol.io/)
@@ -37,7 +39,15 @@ Traditional network analysis utilities (`tshark`, `libpcap`, Python `scapy`) wer
 
 ## 🚀 Quick Start
 
-### 1. Run with npx (stdio mode)
+### Option A: Install via Smithery (Recommended)
+
+To automatically install and configure PacketChef MCP for Claude Desktop via [Smithery](https://smithery.ai/server/@noor202401938-netizen/packet-chef-mcp):
+
+```bash
+npx -y @smithery/cli install @noor202401938-netizen/packet-chef-mcp --client claude
+```
+
+### Option B: Run with npx (stdio mode)
 
 Add to your AI agent harness configuration (e.g. Claude Code, Cursor, Windsurf, or Strix):
 
