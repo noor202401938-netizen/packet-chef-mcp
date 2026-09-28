@@ -55,7 +55,7 @@ Add to your AI agent harness configuration (e.g. Claude Code, Cursor, Windsurf, 
 ### 2. Local Installation
 
 ```bash
-git clone https://github.com/noorfatima123456/packet-chef-mcp.git
+git clone https://github.com/noor202401938-netizen/packet-chef-mcp.git
 cd packet-chef-mcp
 npm install
 npm test

@@ -13,6 +13,7 @@
     "utils",
     "public",
     ".well-known",
+    "landing.html",
     "test.js",
     "README.md",
     "LICENSE"
@@ -23,7 +24,20 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "test": "node test.js"
+    "start:http": "node server.js --http --port 8080",
+    "test": "node test.js",
+    "prepublishOnly": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noor202401938-netizen/packet-chef-mcp.git"
+  },
+  "homepage": "https://github.com/noor202401938-netizen/packet-chef-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/noor202401938-netizen/packet-chef-mcp/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "mcp",
